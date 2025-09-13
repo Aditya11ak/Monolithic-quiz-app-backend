@@ -1,11 +1,17 @@
-# Quiz Application Backend (Monolithic)
+# Quiz Application Backend 
 
-This project is monolithic because all features (questions, quizzes, evaluation) are bundled in a single Spring Boot app; it can be refactored into microservices by separating them into independent services (e.g., Question Service, Quiz Service, Evaluation Service) with REST communication.
 
 A **Spring Boot monolithic backend** for a quiz application.  
 It provides REST APIs to manage questions, create quizzes based on category, and evaluate quiz submissions.  
 
 This project demonstrates clean architecture with **Spring Boot, Spring Data JPA, MySQL, REST APIs, and Lombok**.
+
+
+
+## 🏗️ Monolithic vs Microservices
+
+This app is **monolithic** because all features (questions, quizzes, evaluation) run in a single Spring Boot service.  
+It can be converted to **microservices** by splitting into independent services (Question Service, Quiz Service, Evaluation Service) communicating via REST.
 
 ---
 
